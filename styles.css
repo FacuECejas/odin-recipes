@@ -1,0 +1,32 @@
+body {
+    font-family: "Times New Roman", "Courier New", sans-serif;
+    background-color: #111827;
+    color: rgb(235, 227, 227);
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+#home-title {
+    color: #ffffff;
+}
+
+#bunuelos-img {
+    height: auto;
+    width: 350px;
+}
+
+.content {
+    background-color: #1a2435;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 30px;
+}
