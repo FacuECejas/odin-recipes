@@ -1,7 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Times New Roman", "Courier New", sans-serif;
-    background-color: #111827;
-    color: rgb(235, 227, 227);
+    background-color: salmon;
 }
 
 h1 {
@@ -9,17 +12,38 @@ h1 {
     font-size: 45px;
 }
 
-#home-title {
-    color: #ffffff;
+.home-body {
+    max-width: 100%;
+    margin: 0 auto;
 }
 
-#bunuelos-img {
-    height: auto;
-    width: 350px;
+.home-body h1 {
+    color: cornsilk;
+}
+
+.home-body ul {
+    background-color: lemonchiffon;
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px 30px 50px;
+}
+
+img {
+    display: block;
+    width: auto;
+    margin: 0 auto 20px;
 }
 
 .content {
-    background-color: #1a2435;
+    background-color: lemonchiffon;
+    padding: 10px;
+    margin: 0 auto 10px;
+    max-width: 720px;
+    min-width: 470px;
+}
+
+.content p, .content h2, .content ul, .content ol {
+    margin: 0;
 }
 
 .description {
@@ -27,6 +51,10 @@ h1 {
     font-weight: 600;
 }
 
-h2 {
+.content h2 {
     font-size: 30px;
+}
+
+.content ul, .content ol {
+    padding-left: 20px
 }
